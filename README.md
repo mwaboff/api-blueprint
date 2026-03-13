@@ -24,10 +24,10 @@ Full support includes framework-specific extraction patterns for controllers, DT
 
 ## Installation
 
-### Option 1: Install from directory
+### Option 1: Install from local directory
 
 ```bash
-claude plugin install --dir /path/to/api-blueprint
+claude plugin install /path/to/api-blueprint
 ```
 
 ### Option 2: Use without installing
@@ -119,7 +119,8 @@ API Blueprint uses progressive disclosure at every level:
 ```
 api-blueprint/
 ├── .claude-plugin/
-│   └── plugin.json                          # Plugin manifest
+│   ├── plugin.json                          # Plugin manifest
+│   └── marketplace.json                     # Marketplace metadata
 ├── commands/
 │   └── api-blueprint.md                     # /api-blueprint slash command
 ├── agents/

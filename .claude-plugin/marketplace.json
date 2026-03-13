@@ -1,0 +1,14 @@
+{
+  "name": "api-blueprint",
+  "owner": {
+    "name": "Michael Aboff"
+  },
+  "plugins": [
+    {
+      "name": "api-blueprint",
+      "source": "./",
+      "description": "Generates AI-optimized API documentation skills from backend codebases. Analyzes controllers, models, DTOs, enums, migrations, and tests to produce a portable skill that any AI coding agent can install to immediately understand and interact with the backend API.",
+      "version": "0.1.0"
+    }
+  ]
+}
